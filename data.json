@@ -1,28 +1,34 @@
 {
   "site": {
-    "title": "Your Name - Portfolio",
-    "description": "Portfolio of Your Name"
+    "title": "EL OUADIFI Othmane - Portfolio",
+    "description": "Portfolio of EL OUADIFI Othmane"
   },
   "profile": {
-    "name": "Your Name",
-    "headline": "Full-Stack Developer",
-    "location": "City, Country",
-    "email": "you@example.com",
+    "name": "EL OUADIFI Othmane",
+    "headline": "Data Scientist | Machine Learning Engineer",
+    "location": "Grenoble, France",
+    "email": "othmane.el-ouadifi@grenoble-inp.org",
     "avatar": "cv-129.png",
-    "summary": "Write a short summary about your background, your strengths, and the kind of opportunities you are looking for."
+    "summary": "I am a 3rd year engineering student at ENSIMAG. I am particularly interested in machine learning, deep learning, generative AI, applied mathematics, and numerical modeling. Passionate about solving complex problems and technological innovation."
   },
   "social_links": [
     {
       "label": "GitHub",
-      "url": "https://github.com/your-username"
+      "url": "https://github.com/OELENSIMAG"
     },
     {
       "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/your-username"
+      "url": "https://www.linkedin.com/in/othmane-el-ouadifi/"
     }
   ],
-  "skills": [
+  "Programming Languages": [
     "Python",
+    "C",
+    "C++",
+    "SQL",
+    "Cypher",
+    "R",
+    "Typescript",
     "JavaScript",
     "HTML",
     "CSS"
@@ -50,23 +56,25 @@
   ],
   "experience": [
     {
-      "company": "Company Name",
-      "role": "Software Engineer",
-      "start": "2023",
-      "end": "Present",
-      "description": "What you did in this role.",
+      "company": "STMicroelectronics",
+      "role": "Agentic AI developer intern",
+      "start": "September 2025",
+      "end": "February 2026",
+      "description": "Developed an MCP server that helps STM32 developers debug their code and propose workarounds by analyzing their project and retrieving errata that affects their part number, helping users save time by not having to manually read through errata sheets.",
       "highlights": [
-        "Built feature X that improved Y",
-        "Reduced load time by Z%"
+        "MCP design and architecture",
+        "Prompt injection capabilities for dynamic AI interactions",
+        "Errata retrieval tool for part-specific technical details",
+        "Developed VSCode extension enabling users to connect directly to remote MCP server via HTTP protocol"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University Name",
-      "degree": "BSc in Computer Science",
-      "start": "2019",
-      "end": "2023"
+      "institution": "ENSIMAG",
+      "degree": "Engineering degree in Computer Science and Data Science",
+      "start": "2023",
+      "end": "2027"
     }
   ]
 }
