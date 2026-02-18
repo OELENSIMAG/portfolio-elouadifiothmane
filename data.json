@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "Your Name - Portfolio",
+    "description": "Portfolio of Your Name"
+  },
+  "profile": {
+    "name": "Your Name",
+    "headline": "Full-Stack Developer",
+    "location": "City, Country",
+    "email": "you@example.com",
+    "avatar": "cv-129.png",
+    "summary": "Write a short summary about your background, your strengths, and the kind of opportunities you are looking for."
+  },
+  "social_links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/your-username"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/your-username"
+    }
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "projects": [
+    {
+      "name": "Project One",
+      "description": "Short description of your project and what problem it solves.",
+      "url": "https://github.com/your-username/project-one",
+      "tech": [
+        "Python",
+        "Flask",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Project Two",
+      "description": "Another project description.",
+      "url": "https://your-demo-link.com",
+      "tech": [
+        "React",
+        "Node.js"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Company Name",
+      "role": "Software Engineer",
+      "start": "2023",
+      "end": "Present",
+      "description": "What you did in this role.",
+      "highlights": [
+        "Built feature X that improved Y",
+        "Reduced load time by Z%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Name",
+      "degree": "BSc in Computer Science",
+      "start": "2019",
+      "end": "2023"
+    }
+  ]
+}
