@@ -37,6 +37,18 @@ def load_data(path: Path) -> dict:
     data.setdefault("site", {})
     data["site"].setdefault("title", "My Portfolio")
     data["site"].setdefault("description", "Personal portfolio")
+
+    if "Programming Languages" in data and isinstance(data["Programming Languages"], list):
+        data["programming_languages"] = data["Programming Languages"]
+    else:
+        data["programming_languages"] = []
+
+    if "frameworks" not in data or not isinstance(data["frameworks"], list):
+        data["frameworks"] = []
+
+    if "skills" not in data or not isinstance(data["skills"], list):
+        data["skills"] = []
+
     data["current_year"] = datetime.now().year
     return data
 

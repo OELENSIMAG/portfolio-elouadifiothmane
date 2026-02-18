@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Portfolio</title>
-  <meta name="description" content="Portfolio of Your Name" />
+  <title>EL OUADIFI Othmane - Portfolio</title>
+  <meta name="description" content="Portfolio of EL OUADIFI Othmane" />
   <style>
     :root {
       color-scheme: light;
@@ -120,6 +120,23 @@
       margin: 0.25rem 0;
     }
 
+    .experience-header {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+
+    .company-logo {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      object-fit: contain;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      padding: 0.2rem;
+      flex: 0 0 auto;
+    }
+
     ul {
       margin: 0.5rem 0 0;
       padding-left: 1.1rem;
@@ -174,17 +191,17 @@
 <body>
   <div class="container">
     <header>
-        <img src="cv-129.png" alt="Your Name avatar" class="avatar" />
+        <img src="image/photo-othmane.png" alt="EL OUADIFI Othmane avatar" class="avatar" />
       <div>
-        <h1>Your Name</h1>
-<p class="headline">Full-Stack Developer</p>        <p class="meta">
-City, Country • <a href="mailto:you@example.com">you@example.com</a>        </p>
+        <h1>EL OUADIFI Othmane</h1>
+<p class="headline">Data Scientist | Machine Learning Engineer</p>        <p class="meta">
+Grenoble, France • <a href="mailto:othmane.el-ouadifi@grenoble-inp.org">othmane.el-ouadifi@grenoble-inp.org</a>        </p>
       </div>
 
-<p class="summary">Write a short summary about your background, your strengths, and the kind of opportunities you are looking for.</p>
+<p class="summary">A 3rd year engineering student at ENSIMAG. Particularly interested in machine learning, deep learning, generative AI, applied mathematics, and numerical modeling. Passionate about solving complex problems and technological innovation.</p>
         <div class="links">
-            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/OELENSIMAG" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/othmane-el-ouadifi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
     </header>
 
@@ -205,11 +222,40 @@ City, Country • <a href="mailto:you@example.com">you@example.com</a>        </
           <section>
             <h2>Experience</h2>
               <article class="item">
-                <h3>Software Engineer • Company Name</h3>
-                <p class="small">2023 - Present</p>
-<p>What you did in this role.</p>                  <ul>
-                      <li>Built feature X that improved Y</li>
-                      <li>Reduced load time by Z%</li>
+                <div class="experience-header">
+                    <img src="image/gipsa_logo.png" alt="Gipsa-lab logo" class="company-logo" />
+                  <h3>Assistant Engineer • Gipsa-lab</h3>
+                </div>
+                <p class="small">June 2025 - August 2025</p>
+<p>Comparative study and optimization of Connected Component Labeling (CCL) algorithms for real-time binary image processing.</p>                  <ul>
+                      <li>Comparative study and optimization of CCL algorithms for real-time binary image processing</li>
+                      <li>Development and benchmarking of three C/C++ implementations</li>
+                      <li>Implementation of comprehensive testing infrastructure with statistical analysis</li>
+                      <li>Sequential C algorithm optimization with GPU transposition preparation</li>
+                  </ul>
+              </article>
+              <article class="item">
+                <div class="experience-header">
+                    <img src="image/st-logo.png" alt="STMicroelectronics logo" class="company-logo" />
+                  <h3>Agentic AI developer intern • STMicroelectronics</h3>
+                </div>
+                <p class="small">September 2025 - February 2026</p>
+<p>Developed an MCP server that helps STM32 developers debug their code and propose workarounds by analyzing their project and retrieving errata that affects their part number, helping users save time by not having to manually read through errata sheets.</p>                  <ul>
+                      <li>MCP design and architecture</li>
+                      <li>Prompt injection capabilities for dynamic AI interactions</li>
+                      <li>Built Neo4j database storing relationships between series, part numbers, peripherals, and errata</li>
+                      <li>Errata retrieval tool for part-specific technical details</li>
+                      <li>Developed VSCode extension enabling users to connect directly to remote MCP server via HTTP protocol</li>
+                  </ul>
+              </article>
+              <article class="item">
+                <div class="experience-header">
+                    <img src="image/orange.png" alt="Orange Labs logo" class="company-logo" />
+                  <h3>Agentic AI developer intern • Orange Labs</h3>
+                </div>
+                <p class="small">March 2026 - August 2026</p>
+<p>Description</p>                  <ul>
+                      <li>highlight 1</li>
                   </ul>
               </article>
           </section>
@@ -217,28 +263,82 @@ City, Country • <a href="mailto:you@example.com">you@example.com</a>        </
 
       <aside>
           <section>
-            <h2>Skills</h2>
+            <h2>Frameworks</h2>
             <ul class="skill-list">
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>PyTorch</li>
+                <li>TensorFlow</li>
+                <li>Scikit-learn</li>
+                <li>FastAPI</li>
+                <li>FastMCP</li>
+                <li>Langchain</li>
+                <li>LangGraph</li>
             </ul>
-          </section>
-
-          <section>
-            <h2>Education</h2>
-              <article class="item">
-                <h3>BSc in Computer Science</h3>
-                <p>University Name</p>
-                <p class="small">2019 - 2023</p>
-              </article>
           </section>
       </aside>
     </div>
 
+      <div class="grid">
+        <main>
+            <section>
+              <h2>Education</h2>
+                <article class="item">
+                  <h3>Engineering degree in Computer Science and Data Science</h3>
+                  <p>ENSIMAG</p>
+                  <p class="small">2023 - 2027</p>
+                    <p class="small"><strong>Subjects studied:</strong></p>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Optimization</li>
+                        <li>Probability and Statistics</li>
+                        <li>Algorithms and Data Structures</li>
+                        <li>Database Systems</li>
+                    </ul>
+                </article>
+                <article class="item">
+                  <h3>MPSI/MP* - Mathematics and Physics</h3>
+                  <p>Preparatory Classes for the Grandes Écoles (CPGE)</p>
+                  <p class="small">2021 - 2023</p>
+                    <p class="small"><strong>Subjects studied:</strong></p>
+                    <ul>
+                        <li>Advanced Mathematics</li>
+                        <li>Physics</li>
+                        <li>Computer Science</li>
+                        <li>Engineering Sciences</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <section>
+              <h2>Programming Languages</h2>
+              <ul class="skill-list">
+                  <li>Python</li>
+                  <li>C</li>
+                  <li>C++</li>
+                  <li>SQL</li>
+                  <li>Cypher</li>
+                  <li>HTML/CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bash</li>
+                  <li>Typescript</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2>Skills</h2>
+              <ul class="skill-list">
+                  <li>Machine Learning</li>
+                  <li>Deep Learning</li>
+                  <li>LLM Engineering</li>
+              </ul>
+            </section>
+        </aside>
+      </div>
+
     <footer>
-      © 2026 Your Name
+      © 2026 EL OUADIFI Othmane
     </footer>
   </div>
 </body>

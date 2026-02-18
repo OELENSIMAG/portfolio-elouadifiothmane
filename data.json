@@ -8,8 +8,8 @@
     "headline": "Data Scientist | Machine Learning Engineer",
     "location": "Grenoble, France",
     "email": "othmane.el-ouadifi@grenoble-inp.org",
-    "avatar": "cv-129.png",
-    "summary": "I am a 3rd year engineering student at ENSIMAG. I am particularly interested in machine learning, deep learning, generative AI, applied mathematics, and numerical modeling. Passionate about solving complex problems and technological innovation."
+    "avatar": "image/photo-othmane.png",
+    "summary": "A 3rd year engineering student at ENSIMAG. Particularly interested in machine learning, deep learning, generative AI, applied mathematics, and numerical modeling. Passionate about solving complex problems and technological innovation."
   },
   "social_links": [
     {
@@ -27,11 +27,24 @@
     "C++",
     "SQL",
     "Cypher",
-    "R",
-    "Typescript",
+    "HTML/CSS",
     "JavaScript",
-    "HTML",
-    "CSS"
+    "Bash",
+    "Typescript"
+  ],
+  "frameworks": [
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "FastAPI",
+    "FastMCP",
+    "Langchain",
+    "LangGraph"
+  ],
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "LLM Engineering"
   ],
   "projects": [
     {
@@ -56,7 +69,22 @@
   ],
   "experience": [
     {
+      "company": "Gipsa-lab",
+      "logo": "image/gipsa_logo.png",
+      "role": "Assistant Engineer",
+      "start": "June 2025",
+      "end": "August 2025",
+      "description": "Comparative study and optimization of Connected Component Labeling (CCL) algorithms for real-time binary image processing.",
+      "highlights": [
+        "Comparative study and optimization of CCL algorithms for real-time binary image processing",
+        "Development and benchmarking of three C/C++ implementations",
+        "Implementation of comprehensive testing infrastructure with statistical analysis",
+        "Sequential C algorithm optimization with GPU transposition preparation"
+      ]
+    },
+    {
       "company": "STMicroelectronics",
+      "logo": "image/st-logo.png",
       "role": "Agentic AI developer intern",
       "start": "September 2025",
       "end": "February 2026",
@@ -64,8 +92,20 @@
       "highlights": [
         "MCP design and architecture",
         "Prompt injection capabilities for dynamic AI interactions",
+        "Built Neo4j database storing relationships between series, part numbers, peripherals, and errata",
         "Errata retrieval tool for part-specific technical details",
         "Developed VSCode extension enabling users to connect directly to remote MCP server via HTTP protocol"
+      ]
+    },
+    {
+      "company": "Orange Labs",
+      "logo": "image/orange.png",
+      "role": "Agentic AI developer intern",
+      "start": "March 2026",
+      "end": "August 2026",
+      "description": "Description",
+      "highlights": [
+        "highlight 1"
       ]
     }
   ],
@@ -74,7 +114,27 @@
       "institution": "ENSIMAG",
       "degree": "Engineering degree in Computer Science and Data Science",
       "start": "2023",
-      "end": "2027"
+      "end": "2027",
+      "subjects": [
+        "Machine Learning",
+        "Deep Learning",
+        "Optimization",
+        "Probability and Statistics",
+        "Algorithms and Data Structures",
+        "Database Systems"
+      ]
+    },
+    {
+      "institution": "Preparatory Classes for the Grandes Écoles (CPGE)",
+      "degree": "MPSI/MP* - Mathematics and Physics",
+      "start": "2021",
+      "end": "2023",
+      "subjects": [
+        "Advanced Mathematics",
+        "Physics",
+        "Computer Science",
+        "Engineering Sciences"
+      ]
     }
   ]
 }

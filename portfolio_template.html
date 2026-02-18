@@ -120,6 +120,23 @@
       margin: 0.25rem 0;
     }
 
+    .experience-header {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+
+    .company-logo {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      object-fit: contain;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      padding: 0.2rem;
+      flex: 0 0 auto;
+    }
+
     ul {
       margin: 0.5rem 0 0;
       padding-left: 1.1rem;
@@ -224,7 +241,12 @@
             <h2>Experience</h2>
             {% for job in experience %}
               <article class="item">
-                <h3>{{ job.role }}{% if job.company %} • {{ job.company }}{% endif %}</h3>
+                <div class="experience-header">
+                  {% if job.logo %}
+                    <img src="{{ job.logo }}" alt="{{ job.company }} logo" class="company-logo" />
+                  {% endif %}
+                  <h3>{{ job.role }}{% if job.company %} • {{ job.company }}{% endif %}</h3>
+                </div>
                 <p class="small">{{ job.start }} - {{ job.end }}</p>
                 {% if job.description %}<p>{{ job.description }}</p>{% endif %}
                 {% if job.highlights %}
@@ -241,31 +263,69 @@
       </main>
 
       <aside>
-        {% if skills %}
+        {% if frameworks %}
           <section>
-            <h2>Skills</h2>
+            <h2>Frameworks</h2>
             <ul class="skill-list">
-              {% for skill in skills %}
-                <li>{{ skill }}</li>
+              {% for framework in frameworks %}
+                <li>{{ framework }}</li>
               {% endfor %}
             </ul>
           </section>
         {% endif %}
-
-        {% if education %}
-          <section>
-            <h2>Education</h2>
-            {% for edu in education %}
-              <article class="item">
-                <h3>{{ edu.degree }}</h3>
-                <p>{{ edu.institution }}</p>
-                <p class="small">{{ edu.start }} - {{ edu.end }}</p>
-              </article>
-            {% endfor %}
-          </section>
-        {% endif %}
       </aside>
     </div>
+
+    {% if education or programming_languages or skills %}
+      <div class="grid">
+        <main>
+          {% if education %}
+            <section>
+              <h2>Education</h2>
+              {% for edu in education %}
+                <article class="item">
+                  <h3>{{ edu.degree }}</h3>
+                  <p>{{ edu.institution }}</p>
+                  <p class="small">{{ edu.start }} - {{ edu.end }}</p>
+                  {% if edu.subjects %}
+                    <p class="small"><strong>Subjects studied:</strong></p>
+                    <ul>
+                      {% for subject in edu.subjects %}
+                        <li>{{ subject }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </article>
+              {% endfor %}
+            </section>
+          {% endif %}
+        </main>
+
+        <aside>
+          {% if programming_languages %}
+            <section>
+              <h2>Programming Languages</h2>
+              <ul class="skill-list">
+                {% for language in programming_languages %}
+                  <li>{{ language }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
+          {% if skills %}
+            <section>
+              <h2>Skills</h2>
+              <ul class="skill-list">
+                {% for skill in skills %}
+                  <li>{{ skill }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+        </aside>
+      </div>
+    {% endif %}
 
     <footer>
       © {{ current_year }} {{ profile.name }}
