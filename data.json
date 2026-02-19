@@ -48,22 +48,12 @@
   ],
   "projects": [
     {
-      "name": "Project One",
-      "description": "Short description of your project and what problem it solves.",
-      "url": "https://github.com/your-username/project-one",
+      "name": "Auction Management System with Database",
+      "description": "Design of an Oracle database modeled with UML including SQL transactions and development of a demonstrator Java application.",
+      "url": "",
       "tech": [
-        "Python",
-        "Flask",
-        "SQLite"
-      ]
-    },
-    {
-      "name": "Project Two",
-      "description": "Another project description.",
-      "url": "https://your-demo-link.com",
-      "tech": [
-        "React",
-        "Node.js"
+        "SQL",
+        "Java"
       ]
     }
   ],
