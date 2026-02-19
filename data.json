@@ -93,9 +93,13 @@
       "role": "Agentic AI developer intern",
       "start": "March 2026",
       "end": "August 2026",
-      "description": "Description",
+      "description": "Transformation of existing systems into a modular and scalable AI agent with MCP protocol integration",
       "highlights": [
-        "highlight 1"
+        "Designed and developed a modular, scalable agentic AI system integrating MCP protocol for REST API interactions",
+        "Built a conversational AI agent demonstrator with context management and action orchestration",
+        "Implementation for FUN portal: conversational interface for mobile terminal and service orders management",
+        "Implementation for Orange Business Lounge: intelligent assistant for plan consultation, SIM management, recharge purchases, and customer support",
+        "Enhanced user experience through natural interactions and intelligent recommendations for improved customer relationships"
       ]
     }
   ],
